@@ -194,7 +194,6 @@
 
 
 import React from "react";
-import Amazon from "./Amazon";
 import "./index.css";
 
 const App = () =>
@@ -206,11 +205,10 @@ const App = () =>
 
     return (
         <>
-            {/* <div style={{ backgroundColor: "#34495e"}}>
-               hello
-                <button className="click" onClick={text} >submit</button>
-            </div> */}
-            <Amazon/>
+            <div>
+            <h1>Hello</h1>
+                <button onClick={text} >submit</button>
+            </div>
         </>
     );
 }

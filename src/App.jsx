@@ -67,11 +67,11 @@
 //     return (
 //         <>
 //             <h1 className="heading_style">🎰 Welcome to <span style={{ fontweight: "bold" }} >Slot Machine Game</span>🎰</h1>;
-//             <div className="slot_outer">
-//             <SlotM a=" 😄" b=" 😄" c=" 😄" />
-//             <SlotM a=" 👎" b=" 🥇" c=" 👎" />
-//             <SlotM a=" ⛵" b=" ⛵" c=" ⛵" />
-//             </div>
+            <div className="slot_outer">
+            <SlotM a=" 😄" b=" 😄" c=" 😄" />
+            <SlotM a=" 👎" b=" 🥇" c=" 👎" />
+            <SlotM a=" ⛵" b=" ⛵" c=" ⛵" />
+            </div>
 
 //         </>
 //     );
@@ -193,23 +193,27 @@
 // export default App;
 
 
-import React from "react";
-import "./index.css";
+// import React, { useState } from "react";
+// import "./index.css";
 
-const App = () =>
-{
-    const text = () =>
-    {
-      
-    }
+// const App = () =>
+// {
+//     const [name , setName] = useState("");
+//     const text = () =>
+//     {
+//       setName(name)
+//     }
 
-    return (
-        <>
-            <div>
-            <h1>Hello</h1>
-                <button onClick={text} >submit</button>
-            </div>
-        </>
-    );
-}
-export default App;
+//     return (
+//         <>
+//             <div>
+//             <h1>Hello {name}</h1>
+//             <input type="text" placeholder="Enter Somthing"/>
+//                 <button onClick={text} >submit</button>
+
+//             </div>
+//         </>
+//     );
+// }
+// export default App;
+

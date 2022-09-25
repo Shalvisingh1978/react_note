@@ -173,7 +173,7 @@ h1{
     text-transform: uppercase;
     text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
-input{
+/* input{
     text-align: center;
     height: 30px;
     border: none;
@@ -184,7 +184,7 @@ input{
     border-bottom: 2px solid #8566aa;
     outline: none;
     margin-right: 20px;
-}
+} */
 .newtn
 {
     width: 50px;
@@ -241,4 +241,40 @@ ul li
     background-color: transparent;
     color: crimson;
     box-shadow: 5px 5px 5px -15px rgba(255,0,0,0.5);
+}
+ 
+.active_class
+{
+    color:red;
+}
+
+.main_nav
+{
+    margin: 29px;
+    padding: 10px;
+    background: gray;
+}
+.nav_link
+{
+    margin-left: 120px;
+    font-size: 30px;
+}
+.searchbar
+{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    height: 30px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 53%;
+    border-bottom: 2px solid #8566aa;
+    margin-right: 20px;
+    border-radius: 5px ;
 }

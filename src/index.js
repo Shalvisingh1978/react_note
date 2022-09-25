@@ -125,10 +125,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import ToDoList from "./ToDoList";
 
 ReactDOM.render(
     <React.Fragment>
-<App />
+<ToDoList />
     </React.Fragment>,
     document.getElementById("root"));
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+// import "./index.css";
+// import { BrowserRouter } from "react-router-dom";
+
+// ReactDOM.render(
+//    <BrowserRouter>
+// <App />
+//    </BrowserRouter>,
+//     document.getElementById("root"));
+
 
